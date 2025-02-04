@@ -56,13 +56,13 @@ npm start
 
 Open http://localhost:3000 in your browser.
 
-API Endpoint
+# API Endpoint
 
 => The quiz questions are fetched from Open Trivia Database using the following API:
 
 https://opentdb.com/api.php?amount=10&category=<category_id>&difficulty=<difficulty_level>&type=multiple
 
-Project Structure
+# Project Structure
 
 quiz-app/
 │── src/
@@ -81,7 +81,7 @@ quiz-app/
 │── public/
 │── package.json
 
-Future Enhancements
+# Future Enhancements
 
 => Add a timer for each question.
 
@@ -89,7 +89,7 @@ Future Enhancements
 
 => Improve UI with animations.
 
-Contact
+# Contact
 
 => For any queries, reach out to Utkarsh Singh at singhutkarsh919@gmail.com
 
