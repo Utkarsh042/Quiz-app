@@ -1,56 +1,56 @@
-Intuitive Quiz Hub
+" Intuitive Quiz Hub "
 
-Overview
+# Overview
 
 Intuitive Quiz Hub is a web-based quiz application that allows users to test their knowledge on various topics. It features multiple-choice questions fetched from an external API and provides an interactive user experience with gamification elements.
 
-Features
+# Features
 
-User Input: Users can enter their name before starting the quiz.
+=> User Input: Users can enter their name before starting the quiz.
 
-Category Selection: Users can choose from multiple quiz categories.
+=> Category Selection: Users can choose from multiple quiz categories.
 
-Difficulty Levels: Users can select Easy, Medium, or Hard difficulty levels.
+=> Difficulty Levels: Users can select Easy, Medium, or Hard difficulty levels.
 
-Real-Time Score Update: Users' scores update dynamically based on their answers.
+=> Real-Time Score Update: Users' scores update dynamically based on their answers.
 
-Intuitive UI: Responsive design with a smooth quiz experience.
+=> Intuitive UI: Responsive design with a smooth quiz experience.
 
-Error Handling: Provides appropriate error messages for missing selections.
+=> Error Handling: Provides appropriate error messages for missing selections.
 
-Navigation: Users can move to the next question or quit anytime.
+=> Navigation: Users can move to the next question or quit anytime.
 
-Tech Stack
+# Tech Stack
 
-Frontend: React.js
+=> Frontend: React.js
 
-Styling: CSS, Material UI
+=> Styling: CSS, Material UI
 
-Data Fetching: Axios
+=> Data Fetching: Axios
 
-Routing: React Router
+=> Routing: React Router
 
-Installation
+# Installation
 
 Prerequisites:
 
-Node.js and npm installed
+=> Node.js and npm installed
 
 Steps to run the project:
 
-Clone the repository:
+=> Clone the repository:
 
 git clone <repository_url>
 
-Navigate to the project folder:
+=> Navigate to the project folder:
 
 cd quiz-app
 
-Install dependencies:
+=> Install dependencies:
 
 npm install
 
-Start the development server:
+=> Start the development server:
 
 npm start
 
@@ -58,7 +58,7 @@ Open http://localhost:3000 in your browser.
 
 API Endpoint
 
-The quiz questions are fetched from Open Trivia Database using the following API:
+=> The quiz questions are fetched from Open Trivia Database using the following API:
 
 https://opentdb.com/api.php?amount=10&category=<category_id>&difficulty=<difficulty_level>&type=multiple
 
@@ -81,29 +81,17 @@ quiz-app/
 │── public/
 │── package.json
 
-Screenshots
-
-Include screenshots of your app here.
-
-Video Walkthrough
-
-Include a link to a short video walkthrough demonstrating the app.
-
 Future Enhancements
 
-Add a timer for each question.
+=> Add a timer for each question.
 
-Implement a leaderboard feature.
+=> Implement a leaderboard feature.
 
-Improve UI with animations.
-
-License
-
-This project is open-source and available under the MIT License.
+=> Improve UI with animations.
 
 Contact
 
-For any queries, reach out to Utkarsh Singh at singhutkarsh919@gmail.com
+=> For any queries, reach out to Utkarsh Singh at singhutkarsh919@gmail.com
 
 
 
