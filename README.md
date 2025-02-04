@@ -1,3 +1,115 @@
+Intuitive Quiz Hub
+
+Overview
+
+Intuitive Quiz Hub is a web-based quiz application that allows users to test their knowledge on various topics. It features multiple-choice questions fetched from an external API and provides an interactive user experience with gamification elements.
+
+Features
+
+User Input: Users can enter their name before starting the quiz.
+
+Category Selection: Users can choose from multiple quiz categories.
+
+Difficulty Levels: Users can select Easy, Medium, or Hard difficulty levels.
+
+Real-Time Score Update: Users' scores update dynamically based on their answers.
+
+Intuitive UI: Responsive design with a smooth quiz experience.
+
+Error Handling: Provides appropriate error messages for missing selections.
+
+Navigation: Users can move to the next question or quit anytime.
+
+Tech Stack
+
+Frontend: React.js
+
+Styling: CSS, Material UI
+
+Data Fetching: Axios
+
+Routing: React Router
+
+Installation
+
+Prerequisites:
+
+Node.js and npm installed
+
+Steps to run the project:
+
+Clone the repository:
+
+git clone <repository_url>
+
+Navigate to the project folder:
+
+cd quiz-app
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+Open http://localhost:3000 in your browser.
+
+API Endpoint
+
+The quiz questions are fetched from Open Trivia Database using the following API:
+
+https://opentdb.com/api.php?amount=10&category=<category_id>&difficulty=<difficulty_level>&type=multiple
+
+Project Structure
+
+quiz-app/
+│── src/
+│   │── components/
+│   │   ├── ErrorMessage/
+│   │   ├── Footer/
+│   │   ├── Header/
+│   │   ├── Question/
+│   │── Pages/
+│   │   ├── Home/
+│   │   ├── Quiz/
+│   │   ├── Result/
+│   │── Data/
+│   │── App.js
+│   │── index.js
+│── public/
+│── package.json
+
+Screenshots
+
+Include screenshots of your app here.
+
+Video Walkthrough
+
+Include a link to a short video walkthrough demonstrating the app.
+
+Future Enhancements
+
+Add a timer for each question.
+
+Implement a leaderboard feature.
+
+Improve UI with animations.
+
+License
+
+This project is open-source and available under the MIT License.
+
+Contact
+
+For any queries, reach out to Utkarsh Singh at singhutkarsh919@gmail.com
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
